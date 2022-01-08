@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "emberregular";
+    src: url("/projettecweb/fonts/AmazonEmber_Rg.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "emberregular";
+}
+
+a{
+    color: inherit;
+    text-decoration: none; 
+}
+
+body{
+    background-color: #eff1f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#login-card{
+    background-color: #ffffff;
+    height: 370px;
+    width: 460px;
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#login-card h1{
+    font-size: 28px; 
+    font-weight: 600;
+    height: 70px;
+    line-height: 80px;
+    padding-left: 40px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 15px auto;
+}
+
+label{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.input-group input{
+   height: 35px; 
+   border-radius: 50px;
+   border: 1px solid #919496; 
+   padding-left: 15px;
+   width: 100%;
+}
+
+.merge-input-icon{
+    display: flex;
+    position: relative;
+}
+
+.merge-input-icon i{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #919496;
+    cursor: pointer;
+}
+
+.merge-input-icon i:hover{
+    color: #131921;
+}
+
+.remember-password{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 15px auto;
+}
+
+.remember-password a{
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.remember-password-group label{
+    color: #919496;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 12px;
+    margin-left: 6px;
+    line-height: 14px;
+}
+
+.remember-password-group input[type="checkbox"] {
+    vertical-align:middle; 
+}
+
+/*Start error alert*/
+.error-alert{
+    text-align: center;
+    color:red;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+/*End error alert*/
+
+.login-button{
+    height: 30px;
+    width: 80%;
+    margin: 25px auto;
+}
+
+.login-button input{
+    background-color: #131921;
+    color: #ffffff;
+    text-transform: capitalize;
+    border:none;
+    border-radius: 50px;
+    height: 35px;
+    width: 100%;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3),
+    0px -2px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.login-button input:active{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3),
+    0px -1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.create-account{
+    display: flex;
+    justify-content: center;
+}
+
+.create-account p{
+    color: #919496;
+    font-size: 12px;
+    margin-right: 12px;
+}
+
+.create-account a{
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 12px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

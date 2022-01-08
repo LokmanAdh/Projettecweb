@@ -1,0 +1,370 @@
+body{
+    margin: auto;
+    font-family: "emberbold";
+    width: 1481px;
+}
+
+@font-face {
+    font-family: "emberbold";
+    src: url("/projettecweb/fonts/AmazonEmber_Bd.ttf");
+}
+@font-face {
+    font-family: "embermedium";
+    src: url("/projettecweb/fonts/Amazon-Ember-Medium.ttf");
+}
+@font-face {
+    font-family: "emberlight";
+    src: url("/projettecweb/fonts/AmazonEmber_Lt.ttf");
+}
+@font-face {
+    font-family: "emberregular";
+    src: url("/projettecweb/fonts/AmazonEmber_Rg.ttf");
+}
+
+.head{
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    height: 55px;
+    background-color: #232f3e;
+}
+.logo{
+    height: 30px;
+    width: 100px;
+    margin-left: 25px;
+    margin-top: -20px;
+}
+
+.search i{
+    height: 20px;
+    margin-left: -27px;
+    margin-top: 12px;
+}
+
+
+#searchproduct{
+    width: 40px;
+    background-color: #febd69;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: -8px;
+    border-width: 0px;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    margin-left: 35px;
+}
+
+#searchcategorie{
+    height: 40px;
+    margin-right: -4px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: "emberregular";
+    background-color: #f3f3f3;
+    border-width: 0px;
+    font-size: 10px;
+}
+#searchcategorie option{
+    background-color: white;
+}
+#searchcategorie:hover{
+    background-color: #dedede;
+}
+#searchbar{
+    width: 800px;
+    box-sizing: border-box;
+    border-color: rgb(192, 189, 189); 
+    font-family: "emberregular";
+    font-weight: 100;
+    font-size: 15px;
+    border-width: 0px;
+    border-left-width: 1px;
+}
+
+.searchitems:focus{
+    outline: none;
+}
+.headbuttons{
+    width: 20%;
+    display: flex;
+   margin-right: 20px;
+}
+.headbuttons a{
+    color: white;
+    text-decoration: none;
+}
+.headbuttons button{
+    background: transparent;
+    border-color: #131921;
+    border-width: 0px;
+    height: 40px;
+    width: 100px;
+    font-family: "emberbold";
+    font-size: 14px;
+}
+
+.headbuttons .button1{
+    width: 200px;
+}
+
+.headbuttons .button2{
+    background-image: url("/projettecweb/img/panier.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.button1:hover{
+    border-color: white;
+    border-width: 1px;
+}
+
+.button2:hover{
+    border-color: white;
+    border-width: 1px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-family: "emberregular";
+    font-size: 14px;
+}
+.nav button{
+    background: transparent;
+    border-color: #232f3e;
+    border-width: 0px;
+    margin-left: 5px;
+    height: 30px;
+}
+
+.button3:hover{
+    border-color: white;
+    border-width: 1px;
+}
+
+.button4:hover{
+    border-color: white;
+    border-width: 1px;
+}
+
+.button5:hover{
+    border-color: white;
+    border-width: 1px;
+}
+
+.button6:hover{
+    border-color: white;
+    border-width: 1px;
+}
+
+.button7:hover{
+    border-color: white;
+    border-width: 1px;
+}
+
+.button8:hover{
+    border-color: white;
+    border-width: 1px;
+}
+.navitems{
+    margin-left: 60px;
+}
+.button9{
+    float: right;
+    margin-right: 20px;
+}
+.button9:hover{
+    border-color: white;
+    border-width: 1px;
+}
+
+.carousel {
+    width: 1481px;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .carousel > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+  }
+  
+  .slide a > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .slide[data-active] {
+    opacity: 1;
+    transition-delay: 0ms;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 20%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    border-radius: .25rem;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, .1);
+  }
+  
+  .carousel-button:hover,
+  .carousel-button:focus {
+    color: white;
+  }
+  
+  .carousel-button:focus {
+    outline: 1px solid black;
+  }
+  
+  .carousel-button.prev {
+    left: 1rem;
+  }
+  
+  .carousel-button.next {
+    right: 1rem;
+  }
+  .up{
+      position: relative;
+  }
+  .news{
+      position: absolute;
+      display: flex;
+      margin-top: -480px;
+      justify-content: space-between;
+      margin-left: -50px;
+      
+  }
+  .news1{
+      
+    position: absolute;
+    display: flex;
+    margin-top: -60px;
+    justify-content: space-between;
+    margin-left: -50px;
+    
+}
+
+.vide{
+    height: 400px;
+    background-color: #eaeded;
+}
+  
+  .event{  
+      background-color: white;
+      width: 270px;
+      height: 350px;
+      margin-left: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .event img{
+      margin-bottom: 30px;
+  }
+
+.news a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #4f9dab;
+}
+.news h3{
+    text-align: center;
+}
+
+.news a:hover{
+    text-decoration: underline;
+}
+
+.news1 a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #4f9dab;
+}
+
+.news1 a:hover{
+    text-decoration: underline;
+}
+
+.tip{
+    margin-top: -5px;
+    height: 35px;
+    background-color: #37475a;
+}
+.tip button{
+    background: transparent;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-width: 0px;
+    font-family: "emberlight";
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tip button:hover{
+    background-color: #4f6279;
+    
+}
+.contact{
+    background-color: #232f3e;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactinfo{
+    color: white;
+}
+.p1{
+    font-size: 20px;
+}
+.p2{
+    font-size: 15px;
+    margin-left: 50px;
+}
+.e{
+    margin-right: 15px;
+}
+.c{
+    color: white;
+    margin-top: 130px;
+    display: flex;
+    font-size: 10px;
+}
+
+
